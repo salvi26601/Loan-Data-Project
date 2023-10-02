@@ -17,4 +17,6 @@ The changes made in the data:
 * 'url' - From the lengthy url, the common part is removed and only the last unique numbers are kept. The numbers are found to be same as the id so the url column is removed.
 * 'addr_state' - All the unique state codes are classifed as west, south, midwest and east regions and are represented by integers
 
+The data is divided into two sets - the string value fields and the numeric value fields for cleaning and then the two sets are again merged.
+
 Thus, the changes are stored in a new file named loan-data-preprocessed ready to take meaningful insights from.
